@@ -2,6 +2,7 @@ name: Build libchdr
 
 on:
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   build-libchdr:
